@@ -5,9 +5,6 @@ interface ISecondProps {
   color: string;
 }
 
-moment.locale("ru");
-console.log(moment().format("DD MMM YYYY"));
-
 const Second: React.FC<ISecondProps> = ({ color }) => {
   return (
     <h2 className="first" style={{ color }}>
